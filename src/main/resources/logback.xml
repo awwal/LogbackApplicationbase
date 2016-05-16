@@ -2,9 +2,9 @@
 <configuration>
 
     <appender name="DEFAULT-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>wdas-epa-default.log</file>
+        <file>lbapp.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>wdas-epa-default.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>lbapp.%d{yyyy-MM-dd}.log</FileNamePattern>
             <maxHistory>5</maxHistory>
         </rollingPolicy>
 
